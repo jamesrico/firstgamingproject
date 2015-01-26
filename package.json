@@ -1,0 +1,28 @@
+{
+  "name": "super-street-fighter",
+  "version": "1.0.0",
+  "description": "This is street fight to the death",
+  "main": "app.js",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npm run lint-json && npm run lint-js && npm run lint-js-style",
+    "lint-json": "jsonlint -q package.json .jscsrc .jshintrc",
+    "lint-js": "jshint .",
+    "lint-js-style": "jscs ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sscotth/super-street-fighter.git"
+  },
+  "author": "Scott <scott@sscotth.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sscotth/super-street-fighter/issues"
+  },
+  "homepage": "https://github.com/sscotth/super-street-fighter"
+}
+
